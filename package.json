@@ -1,0 +1,17 @@
+{
+  "name": "nyc-exploration-game",
+  "version": "1.0.0",
+  "description": "A 3D NYC exploration game",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve -s .",
+    "dev": "serve -s . -l 3000"
+  },
+  "dependencies": {
+    "three": "^0.158.0",
+    "serve": "^14.2.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
